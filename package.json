@@ -1,8 +1,8 @@
 {
   "name": "sticky-anchor",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "scroll && stickyAnchor",
-  "main": "dist/stickyAnchor.js",
+  "main": "dist/sticky-anchor.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --display-error-details --config webpack.config.js"
