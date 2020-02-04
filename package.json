@@ -9,6 +9,10 @@
   },
   "author": "beanz",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stevenzhong/sticky-anchor"
+  },
   "dependencies": {},
   "devDependencies": {
     "babel-cli": "^6.23.0",

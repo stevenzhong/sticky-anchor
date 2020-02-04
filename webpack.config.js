@@ -7,6 +7,7 @@ module.exports = {
     path: path.resolve(__dirname, './dist'), //输出路径dist目录
     publicPath: '/dist/',
     filename: 'stickyAnchor.min.js', //打包后输出的文件名字,这里需要和package.json文件下main应该写为:'dist/stickyAnchor.min.js'
+    libraryTarget: "umd",
     umdNamedDefine: true
   },
   //这里我们可以剔除掉一些通用包,自己的包不打包这些类库,需要用户环境来提供
