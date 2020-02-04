@@ -1,6 +1,7 @@
 const path = require('path');
 
 module.exports = {
+  mode: 'production',
   entry: './src/index.js', //入口文件，就是在src目录下的index.js文件，
   output: {
     path: path.resolve(__dirname, './dist'), //输出路径dist目录
