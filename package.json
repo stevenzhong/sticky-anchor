@@ -1,6 +1,6 @@
 {
   "name": "sticky-anchor",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "scroll && stickyAnchor",
   "main": "dist/sticky-anchor.min.js",
   "scripts": {
