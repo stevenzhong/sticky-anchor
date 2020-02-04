@@ -40,7 +40,7 @@ data(){
 
 ## html
 <sticky-anchor :menus="menus">
-    <div v-for="menu in menus" :key="menu.value" :class="menu.value">{{ item.label }}</div>
+    <div v-for="menu in menus" :key="menu.value" :class="menu.value">{{ item.content }}</div>
 </sticky-anchor>
 
 ```
